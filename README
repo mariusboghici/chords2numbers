@@ -1,0 +1,34 @@
+This repo is supposed to be a code to auto transcribe chords (manual input) of a song from the standard notation (chord names) to roman numerals based on scale degree 
+for all 12 keys major or minor. 
+I input the base Key of the song (C major, Ab minor, F# major, Bb minor...etc).
+
+e.g:
+In the key of C major: Dm G C became: ii V I
+In the key of G major: G C D became: I IV V
+In the key of A minor: Am B° C Dm Em F G became: i ii° III iv v VI VII
+...etc.
+
+The prompt:
+Enter Key name: (e.g. F major or D minor or G# minor or....)
+Enter chords: (input the chords of the song)
+
+
+                 A little bit of music theory
+                 
+The triads built on each Major scale degree follow a distinct pattern. 
+The roman numeral analysis is shown in parentheses.
+
+1st: Major triad (I)
+2nd: minor triad (ii)
+3rd: minor triad (iii)
+4th: Major triad (IV)
+5th: Major triad (V)
+6th: minor triad (vi)
+7th: diminished triad (vii°)
+
+Every major key has a relative minor, which starts on the 6th scale degree or step, 
+so: 
+The Major key is: I ii iii IV V vi vii° and 
+The Minor key is: i ii° III iv v VI VII.
+
+
